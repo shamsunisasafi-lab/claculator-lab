@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calculater</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body> 
+    
+        <h2 style="color: rgb(0, 4, 255); font-size: 40px;">lets Do some math...</h2>
+   
+        <div class="display" id="display">0</div>
+    <div class="buttons">
+
+        <button onclick="deleteNumber()" class="gray"></button>
+        <button onclick="clearDisplay()" class="gray">AC</button>
+       <button onclick="percent()" class="gray">%</button>
+        <button onclick="chooseOperator('/')" class="orange">/</button>
+        <button onclick="appendNumber('7')">7</button>
+        <button onclick="appendNumber('8')">8</button>
+        <button onclick="appendNumber('9')">9</button>
+        <button onclick="chooseOperator('*')" class="orange">*</button>
+        <button onclick="appendNumber('4')">4</button>
+        <button onclick="appendNumber('5')">5</button>
+        <button onclick="appendNumber('6')">6</button>
+        <button onclick="chooseOperator('-')" class="orange">-</button>
+        <button onclick="appendNumber('1')">1</button>
+        <button onclick="appendNumber('2')">2</button>
+        <button onclick="appendNumber('3')">3</button>
+        <button onclick="chooseOperator('+')" class="orange">+</button>
+        <button onclick="toggleSign()" class="gray">+/-</button>
+        <button onclick="appendNumber('0')">0</button>
+        <button onclick="appendNumber('.')">.</button>
+        <button onclick="calculate()" class="orange">=</button>
+    </div>
+</div>
+</div>
+
+<footer>
+    <a href="about.html" class="page">Next</a>
+</footer>
+
+
+
+        <script src="index.js"></script>
+</body>
+</html>
